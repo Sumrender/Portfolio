@@ -10,17 +10,30 @@ export default function LeftSidebar() {
       <div className="links">
         <a
           className="link"
+          target={"_blank"}
           href="https://drive.google.com/file/d/1KsadNRtqj3skAk7ZviQvCDPiPjzaaRnd/view?usp=drivesdk"
         >
           <img className="resume-logo" src={Resume} alt="resume" />
         </a>
-        <a className="link" href="https://www.linkedin.com/in/sumrendersingh/">
+        <a
+          target={"_blank"}
+          className="link"
+          href="https://www.linkedin.com/in/sumrendersingh/"
+        >
           <img className="linkedin-logo" src={Linkedin} alt="linkedin" />
         </a>
-        <a className="link" href="https://twitter.com/sumrenders">
+        <a
+          target={"_blank"}
+          className="link"
+          href="https://twitter.com/sumrenders"
+        >
           <img className="twitter-logo" src={Twitter} alt="twitter" />
         </a>
-        <a className="link" href="https://github.com/sumrender">
+        <a
+          target={"_blank"}
+          className="link"
+          href="https://github.com/sumrender"
+        >
           <img className="github-logo" src={Github} alt="github" />
         </a>
       </div>
