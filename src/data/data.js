@@ -1,4 +1,10 @@
-// why is not picking changes here?
+export const links = {
+  linkedin: "https://www.linkedin.com/in/sumrendersingh/",
+  github: "https://github.com/sumrender",
+  resume:
+    "https://drive.google.com/file/d/1C8uOzTt6zt7eUgmb8LAMUAQ3cAwfi2up/view?usp=share_link",
+  twitter: "https://twitter.com/sumrenders",
+};
 export const projects = [
   // {
   //   name: "Portfolio",
