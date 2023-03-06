@@ -1,3 +1,4 @@
+// why is not picking changes here?
 export const projects = [
   // {
   //   name: "Portfolio",
@@ -6,9 +7,16 @@ export const projects = [
   //   stack: ["ReactJS"],
   //   link: "",
   // },
-
   {
-    name: "FaceUP",
+    name: "📱 Instagram App Clone ",
+    desc: "Instagram clone, currently work in progress",
+    img: "",
+    stack: ["React Native", "Firebase", "Redux", "Expo"],
+    link: "https://github.com/sumrender/insta-native",
+    projectLink: "",
+  },
+  {
+    name: "🛒 FaceUP ",
     desc: "eCommerce web app, which recommends products based on face features",
     img: "https://raw.githubusercontent.com/Sumrender/engage-2022/main/preview/ss1.jpg",
     stack: [
@@ -20,6 +28,15 @@ export const projects = [
       "Tailwind CSS",
     ],
     link: "https://github.com/sumrender/faceUP",
+    projectLink: "https://www.youtube.com/watch?v=Np62QJMPv5A",
+  },
+  {
+    name: "Sambot",
+    desc: "Personalised chatbot for any website",
+    img: "https://sumrender.github.io/assets/sambot.png",
+    stack: ["Flask", "OpenAI", "HTML", "CSS"],
+    link: "https://github.com/sumrender/bikeChain-frontend",
+    projectLink: "http://sambot.pythonanywhere.com/",
   },
   {
     name: "BikeChain",
@@ -27,6 +44,7 @@ export const projects = [
     img: "",
     stack: ["Solidity", "Ethers", "Hardhat", "ReactJS"],
     link: "https://github.com/sumrender/bikeChain-frontend",
+    projectLink: "",
   },
   {
     name: "ChatsApp",
@@ -34,6 +52,7 @@ export const projects = [
     img: "",
     stack: ["MongoDB", "Express", "ReactJS", "Socket.io"],
     link: "",
+    projectLink: "",
   },
   {
     name: "Booklists",
@@ -41,6 +60,7 @@ export const projects = [
     img: "https://raw.githubusercontent.com/sumrender/blog_flask/main/preview.png",
     stack: ["Flask", "HTML", "CSS"],
     link: "https://github.com/sumrender/blog_flask",
+    projectLink: "http://booklists.pythonanywhere.com/",
   },
 ];
 

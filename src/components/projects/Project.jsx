@@ -1,9 +1,7 @@
 import Image from "../../assets/project.jpeg";
 
 export default function Project({ project }) {
-  // let img = project.img || Image;
-  let img = Image;
-  let link = project.link || "#";
+  let img = project.img || Image;
   return (
     <div className="project-container">
       <p className="project-heading">{project.name}</p>
@@ -15,8 +13,13 @@ export default function Project({ project }) {
           <div className="">
             <p className="project-desc">{project.desc}</p>
             <button className="project-repo main-button">
-              <a href={link} target="_blank">
+              <a href={project.link} target="_blank">
                 <span className="emoji">🔗</span>Go to Repo
+              </a>
+            </button>
+            <button className="project-repo main-button">
+              <a href={project.projectLink} target="_blank">
+                <span className="emoji">🔗</span>Live Demo
               </a>
             </button>
           </div>
