@@ -14,6 +14,14 @@ export const projects = [
   //   link: "",
   // },
   {
+    name: "💸 Stipend Sort - Internshala ",
+    desc: "Google Chrome extension, used to sort and filter internships",
+    img: "",
+    stack: ["HTML", "CSS", "JS"],
+    link: "https://github.com/sumrender/stipend-sort-internshala",
+    projectLink: "",
+  },
+  {
     name: "📱 Instagram App Clone ",
     desc: "Instagram clone, currently work in progress",
     img: "",
