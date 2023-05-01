@@ -2,7 +2,7 @@ export const links = {
   linkedin: "https://www.linkedin.com/in/sumrendersingh/",
   github: "https://github.com/sumrender",
   resume:
-    "https://drive.google.com/file/d/1nloIwHwxYrwPYLKjqRIckvIEJtj9Mpwk/view?usp=share_link",
+    "https://drive.google.com/file/d/1PQRklkrDvJoHyPugA56W-R7f2UBeGqtA/view?usp=share_link",
   twitter: "https://twitter.com/sumrenders",
 };
 export const projects = [
