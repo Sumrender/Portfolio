@@ -25,7 +25,7 @@ export const projects = [
   {
     name: "🛒 FaceUP ",
     desc: "eCommerce web app, which recommends products based on face features",
-    img: "https://asset-handler.vercel.app/faceUp.png",
+    img: "https://asset-handler.vercel.app/faceUp.jpg",
     stack: [
       "MongoDB",
       "ReactJS",
@@ -56,7 +56,7 @@ export const projects = [
   {
     name: "ChatsApp",
     desc: "Chat app built to understand the working of chat applications",
-    img: "https://asset-handler.vercel.app/chat.png",
+    img: "https://asset-handler.vercel.app/chat.jpg",
     stack: ["MongoDB", "Express", "ReactJS", "Socket.io"],
     link: "https://github.com/sumrender/chat-app-backend/tree/main",
     projectLink: "",
