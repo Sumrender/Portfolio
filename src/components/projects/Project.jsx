@@ -13,15 +13,17 @@ export default function Project({ project }) {
           <div className="">
             <p className="project-desc">{project.desc}</p>
             <button className="project-repo main-button">
-              <a href={project.link} target="_blank">
+              <a href={project.link} target="_blank" rel="noreferrer">
                 <span className="emoji">🔗</span>Go to Repo
               </a>
             </button>
-            <button className="project-repo main-button">
-              <a href={project.projectLink} target="_blank">
-                <span className="emoji">🔗</span>Live Demo
-              </a>
-            </button>
+            {project.projectLink && (
+              <button className="project-repo main-button">
+                <a href={project.projectLink} target="_blank" rel="noreferrer">
+                  <span className="emoji">🔗</span>Live Demo
+                </a>
+              </button>
+            )}
           </div>
           <div className="button-grid-container">
             {project.stack.map((tech, idx) => (

@@ -13,10 +13,10 @@ export default function Intro() {
         </div>
         <div className="one-liner">
           <p>
-            I am a 3rd year engineering graduate, interested in web development,
+            I am a 4th year engineering graduate, interested in web development,
             with a focus on the <u>BACK-END</u>.
           </p>
-          <p> 
+          <p>
             Currently, I am exploring the field of{" "}
             <span style={{ color: "yellow" }}>web3</span> and learning about
             creating smart contracts and their development.

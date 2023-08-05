@@ -9,7 +9,7 @@ export const projects = [
   {
     name: "💸 Highest Stipend - Internshala",
     desc: "Chrome extension to filter internships on 'https://internshala.com'",
-    img: "",
+    img: "https://asset-handler.vercel.app/stipend-sort.png",
     stack: ["HTML", "CSS", "JS"],
     link: "https://github.com/sumrender/stipend-sort-internshala",
     projectLink: "",
@@ -17,7 +17,7 @@ export const projects = [
   {
     name: "🎶 Spotify Playlist Generator ",
     desc: "Manage all songs on your device, moving them to spotify",
-    img: "",
+    img: "https://asset-handler.vercel.app/playlist.png",
     stack: ["Electron", "React", "OAuth", "Bootstrap", "NodeJS", "Express"],
     link: "https://github.com/sumrender/playlist-gen",
     projectLink: "https://www.loom.com/share/2b50c2dc42014b418ed027eda6364351",
@@ -25,7 +25,7 @@ export const projects = [
   {
     name: "🛒 FaceUP ",
     desc: "eCommerce web app, which recommends products based on face features",
-    img: "https://raw.githubusercontent.com/Sumrender/engage-2022/main/preview/ss1.jpg",
+    img: "https://asset-handler.vercel.app/faceUp.png",
     stack: [
       "MongoDB",
       "ReactJS",
@@ -38,37 +38,37 @@ export const projects = [
     projectLink: "https://www.youtube.com/watch?v=Np62QJMPv5A",
   },
   {
-    name: "Sambot",
-    desc: "Personalised chatbot for any website",
-    img: "https://sumrender.github.io/assets/sambot.png",
-    stack: ["Flask", "OpenAI", "HTML", "CSS"],
-    link: "https://github.com/sumrender/bikeChain-frontend",
-    projectLink: "http://sambot.pythonanywhere.com/",
-  },
-  {
     name: "BikeChain",
     desc: "Decentralised Bike Rental System",
-    img: "",
+    img: "https://asset-handler.vercel.app/bikeChain.png",
     stack: ["Solidity", "Ethers", "Hardhat", "ReactJS"],
     link: "https://github.com/sumrender/bikeChain-frontend",
     projectLink: "",
   },
   {
-    name: "ChatsApp",
-    desc: "Chat app built to understand the working of chat applications",
-    img: "",
-    stack: ["MongoDB", "Express", "ReactJS", "Socket.io"],
-    link: "",
-    projectLink: "",
-  },
-  {
     name: "Booklists",
     desc: "Blog to write about all the books I read in 2023",
-    img: "https://raw.githubusercontent.com/sumrender/blog_flask/main/preview.png",
+    img: "https://asset-handler.vercel.app/booklists.png",
     stack: ["Python", "Flask", "HTML", "CSS"],
     link: "https://github.com/sumrender/blog_flask",
     projectLink: "http://booklists.pythonanywhere.com/",
   },
+  {
+    name: "ChatsApp",
+    desc: "Chat app built to understand the working of chat applications",
+    img: "https://asset-handler.vercel.app/chat.png",
+    stack: ["MongoDB", "Express", "ReactJS", "Socket.io"],
+    link: "https://github.com/sumrender/chat-app-backend/tree/main",
+    projectLink: "",
+  },
+  // {
+  //   name: "Sambot",
+  //   desc: "Personalised chatbot for any website",
+  //   img: "https://sumrender.github.io/assets/sambot.png",
+  //   stack: ["Flask", "OpenAI", "HTML", "CSS"],
+  //   link: "https://github.com/sumrender/bikeChain-frontend",
+  //   projectLink: "http://sambot.pythonanywhere.com/",
+  // },
 ];
 
 export const experiences = [
@@ -81,5 +81,10 @@ export const experiences = [
     date: "Jan 2022 - Mar 2022",
     name: "Codinova Technologies Pvt. Ltd.",
     desc: "Worked with NestJS and created end-to-end tests with Jest in Typescript. Learned about authentication, handling protected and public routes, writing clean code and use of linters.",
+  },
+  {
+    date: "Mar 2023 - Apr 2023",
+    name: "Kogniti",
+    desc: "Worked on the MERN stack creating new react components with Material UI and creating new endpoints at the backend.",
   },
 ];
